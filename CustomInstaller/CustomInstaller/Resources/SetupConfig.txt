@@ -1,0 +1,44 @@
+{
+    "InstallTitle":"自定义安装包演示_安装程序",
+    "UnInstallTitle":"自定义安装包演示_卸载程序",
+    "Icon":"logo.png",
+    "ReleaseNoteTitle":"版本发行日志",
+    "InstallPath":"C:\\CustomInstaller",
+    "InstallerName":"自定义安装包演示.exe",
+    "CreateDesktopShortcut":true,
+    "CreateStartup":true,
+    "CreateDirectory":[
+        "安装程序创建的目录1",
+        "安装程序创建的目录2",
+        "安装程序创建的目录3",
+        "安装程序创建的目录4"
+    ],
+    "ShortcutItems":[
+        {
+            "Name":"demo.exe",
+            "Args":""
+        }
+    ],
+    "StartupItems":[
+        {
+            "Name":"demo.exe",
+            "Args":""
+        }
+    ],
+    "AutoRunItems":[
+        {
+            "Name":"demo.exe",
+            "Args":""
+        }
+    ],
+    "RuntimeDependencies":[
+        {
+            "DependencyName":"Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.36.32532",
+            "DependencyType":2,
+            "Path":"VC_redist.x86.exe",
+            "InstallArgs":"/install /passive /quiet",
+            "UnInstallArgs":"/uninstall /passive /quiet /norestart",
+            "FriendlyName":"Visual C++ 2015-2022 运行时"
+        }
+    ]
+}

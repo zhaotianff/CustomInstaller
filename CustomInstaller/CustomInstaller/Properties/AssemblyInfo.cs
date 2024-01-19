@@ -8,11 +8,11 @@ using System.Windows;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("CustomInstaller")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("自定义安装包演示")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("https://github.com/zhaotianff")]
 [assembly: AssemblyProduct("CustomInstaller")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyCopyright("Copyright ©  2024 ZTI")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
