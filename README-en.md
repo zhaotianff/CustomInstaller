@@ -32,7 +32,7 @@ A detailed introduction can be found in the cnblogs
 
 https://www.cnblogs.com/zhaotianff/p/17387496.html
 
-> 代码还有可以优化的地方，我自己估计暂时不会去做这个工作，有需要的小伙伴可以自己优化
+> 代码还有可以优化的地方，我自己估计暂时不会去做这个工作，有需要的小伙伴可以自己优化  
 > It is necessary to distinguish between x86 and x64 systems. Currently, the default is AnyCPU, which may cause errors when running on certain systems. Please be aware of this.
 
 
