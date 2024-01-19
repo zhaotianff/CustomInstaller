@@ -39,7 +39,7 @@ https://github.com/zhaotianff/CustomInstaller/assets/22126367/683c3b6d-a5d4-4405
 
 https://www.cnblogs.com/zhaotianff/p/17387496.html
 
-> 代码还有可以优化的地方，我自己估计暂时不会去做这个工作，有需要的小伙伴可以自己优化
+> 代码还有可以优化的地方，我自己估计暂时不会去做这个工作，有需要的小伙伴可以自己优化  
 > 需要区分x86和x64的系统，目前默认是AnyCPU，在某些系统上运行可能会出错，这里需要注意下。
 
 
